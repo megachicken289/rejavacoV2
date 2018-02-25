@@ -1,4 +1,4 @@
-package intToObjTxtBk.chapters.ch3.withConstructor;
+package java.intToObjTxtBk.chapters.ch3.withConstructor;
 
 public class Account {
     private String name;    // instance variable

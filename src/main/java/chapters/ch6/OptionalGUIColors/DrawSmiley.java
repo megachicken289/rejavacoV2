@@ -1,4 +1,4 @@
-package chapters.ch6.OptionalGUIColors;
+package java.chapters.ch6.OptionalGUIColors;
 
 import java.awt.Color;
 import java.awt.Graphics;

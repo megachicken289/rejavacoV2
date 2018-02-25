@@ -1,4 +1,4 @@
-package chapters.ch3.withConstrAndDouble;
+package java.chapters.ch3.withConstrAndDouble;
 
 public class Account {
     private String name;    // instance variable

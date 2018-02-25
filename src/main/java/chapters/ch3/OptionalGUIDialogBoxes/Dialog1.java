@@ -1,4 +1,4 @@
-package chapters.ch3.OptionalGUIDialogBoxes;
+package java.chapters.ch3.OptionalGUIDialogBoxes;
 
 import javax.swing.JOptionPane;
 

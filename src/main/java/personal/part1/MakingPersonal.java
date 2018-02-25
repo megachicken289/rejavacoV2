@@ -1,4 +1,4 @@
-package personal.part1;
+package java.personal.part1;
 
 public class MakingPersonal {
     private Object personalThing;

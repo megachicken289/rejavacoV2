@@ -1,4 +1,4 @@
-package chapters.ch8;
+package java.chapters.ch8;
 
 public class ThisTest
 {

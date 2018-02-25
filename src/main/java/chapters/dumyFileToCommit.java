@@ -1,4 +1,4 @@
-package chapters;
+package java.chapters;
 
 public class dumyFileToCommit
 {

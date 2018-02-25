@@ -1,4 +1,4 @@
-package chapters.ch3.withConstrAndDouble;
+package java.chapters.ch3.withConstrAndDouble;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package intToObjTxtBk.chapters.ch3.withoutConstructor;
+package java.intToObjTxtBk.chapters.ch3.withoutConstructor;
 
 import java.util.Scanner;
 

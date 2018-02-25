@@ -1,4 +1,4 @@
-package chapters.ch7;
+package java.chapters.ch7;
 
 import java.util.ArrayList;
 
