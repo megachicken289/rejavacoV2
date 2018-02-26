@@ -10,8 +10,6 @@ public class Craps {
 		CONTINUE, WON, LOST
 	}
 	
-	;
-	
 	// conts taht rep cmn rolls
 	private static final int SNAKE_EYES = 2;
 	private static final int TREY = 3;
