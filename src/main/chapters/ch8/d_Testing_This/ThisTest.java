@@ -1,4 +1,4 @@
-package chapters.ch8;
+package chapters.ch8.d_Testing_This;
 
 public class ThisTest {
 	public static void main (String[] args) {

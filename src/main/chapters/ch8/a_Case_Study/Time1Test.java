@@ -1,4 +1,4 @@
-package chapters.ch8;
+package chapters.ch8.a_Case_Study;
 
 public class Time1Test {
 	public static void main (String[] args) {
