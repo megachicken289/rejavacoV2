@@ -5,7 +5,7 @@ package chapters.ch9.a_SuperAndSubClassDemo;
  */
 public class CommissionEmployeeTest {
 	public static void main(String[] args) {
-		CommisionEmployee employee = new CommisionEmployee(
+		CommissionEmployee_Fig94AndFig98 employee = new CommissionEmployee_Fig94AndFig98(
 				"Sue", "Jones",
 				"222-22-222", 10000,.06);
 		

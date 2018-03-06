@@ -5,8 +5,8 @@ package chapters.ch9.a_SuperAndSubClassDemo;
  */
 public class BasePlusCommissionEmployeeTest{
 	public static void main(String[] args) {
-		// instantiate BasePlusCommissionEmployee object
-		BasePlusCommissionEmployee employee = new BasePlusCommissionEmployee(
+		// instantiate BasePlusCommissionEmployee_CopyPaste object
+		BasePlusCommissionEmployee_CopyPaste employee = new BasePlusCommissionEmployee_CopyPaste(
 				"Bob", "Lewis", "333-33-3333",
 				5000,.04,300);
 		
