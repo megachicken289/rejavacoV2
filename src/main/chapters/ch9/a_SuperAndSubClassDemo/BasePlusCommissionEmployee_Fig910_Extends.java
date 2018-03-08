@@ -3,7 +3,7 @@ package chapters.ch9.a_SuperAndSubClassDemo;
 /**
  * Created by Frank Borges XPTHQ on 3/5/2018.
  */
-public class BasePlusCommissionEmployee_Fig910_Extends extends CommissionEmployee_Fig94AndFig98 {
+public class BasePlusCommissionEmployee_Fig910_Extends extends CommissionEmployee_Fig910 {
 	private double baseSalary; // base salary per week
 	
 	// six-arg constructor
