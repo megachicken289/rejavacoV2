@@ -1,9 +1,9 @@
-package chapters.ch10.b_PayrollSysUsingPolymorphism;
+package chapters.ch10.c_CreatingAndUsingInterfaces;
 
 /**
  * Created by Frank Borges XPTHQ on 3/7/2018.
  */
-public abstract class Employee {
+public abstract class Employee implements Payable{
 	private final String firstName;
 	private final String lastName;
 	private final String socialSecurityNumber;
@@ -29,6 +29,9 @@ public abstract class Employee {
 		return socialSecurityNumber;
 	}
 	
+	// calculate earnings; override abstract methjod earnings in Employee
+	public abstract double getPaymentAmount();
+	
 	// return String rep of Employee object
 	@Override
 	public String toString() {
@@ -36,6 +39,6 @@ public abstract class Employee {
 				getFirstName(),getLastName(),getSocialSecurityNumber());
 	}
 	
-	// abstract method must be overridden by concrete subclass
-	public abstract double earnings(); // no implimentation here
+	// Note: We do not implement Payable method getPaymentAmount here so
+	// this class must be declared abstract to avoid a compilation error
 }
