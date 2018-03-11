@@ -7,7 +7,7 @@ package chapters.ch8.e_Composition;
  * Created by Frank Borges XPTHQ on 2/26/2018.
  */
 public class Date {
-	private int month; // 1-212
+	private int month; // 1-12
 	private int day;   // 1-31 based on month
 	private int year;  // any year //planned enhancment to include matcher
 	

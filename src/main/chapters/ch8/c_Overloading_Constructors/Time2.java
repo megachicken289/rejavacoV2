@@ -48,7 +48,7 @@ public class Time2 {
 	public void setTime (int hour, int minute, int second) {
 		if (hour < 0 || hour >= 24) throw new IllegalArgumentException("Hour(s) must be 0-23");
 		if (minute < 0 || minute >= 60) throw new IllegalArgumentException("Minute(s) must be 0-59");
-		if (second < 0 || second >= 6) throw new IllegalArgumentException("Hour(s) must be 0-59");
+		if (second < 0 || second >= 60) throw new IllegalArgumentException("Seconds(s) must be 0-59");
 		
 		this.hour = hour;
 		this.minute = minute;
@@ -57,7 +57,7 @@ public class Time2 {
 	
 	// validate and set hour
 	public void setHour (int hour) {
-		if (hour < 0 || hour >= 24) throw new IllegalArgumentException("Hour must be 0-23");
+		if (hour < 0 || hour >= 24) throw new IllegalArgumentException("Hour(s) must be 0-23");
 		this.hour = hour;
 	}
 	
@@ -69,7 +69,7 @@ public class Time2 {
 	
 	// valiate and set seconds
 	public void setSecond (int second) {
-		if (second < 0 || second >= 6) throw new IllegalArgumentException("Hour(s) must be 0-59");
+		if (second < 0 || second >= 60) throw new IllegalArgumentException("Second(s) must be 0-59");
 		this.second = second;
 	}
 	
